@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    height: 100vh;
     background: linear-gradient(to bottom, #052A02 21%, #063F01 40%, #085801 59%, #16FF00 100%);
+    background-attachment: fixed;
 }
 
 nav {
@@ -34,6 +34,10 @@ nav {
     color: #fff;
 }
 
+.hidden {
+    display: none;
+}
+
 .card {
     display: flex;
     justify-content: space-around;
@@ -56,11 +60,22 @@ nav {
     color: #fff
 }
 
-.tracker-container {
-    width: 94.3%;
+/* .tracker-container {
+    width: 61.5%;
     margin-left: 40px;
     height: 300px;
     border: none;
     border-radius: 10px;
     background-color: #D9D9D9;
+} */
+
+.tracker-container {
+    display: flex;
+    border: 20px solid white;
 }
+
+.tracker-transactions {
+    background-color: #D9D9D9;
+    border: 20px solid black;
+}
+
