@@ -6,12 +6,61 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    height: 100dvh;
+    height: 100vh;
+    background: linear-gradient(to bottom, #052A02 21%, #063F01 40%, #085801 59%, #16FF00 100%);
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 25px;
-    background-color: green;
+    padding: 35px;
+    background: linear-gradient(to right, #000000 0%, #061C04 20%, #053700 38%, #094D03 56%, #0E7005 73%, #0EA300 100%);
+}
+
+.title h1 {
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+.title p {
+    color: #fff;
+}
+
+.title span {
+    color: green;
+}
+
+.date {
+    color: #fff;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    gap: 50px;
+}
+
+.balance-card, .income-card, .expanse-card {
+    padding: 20px;
+    width: 35%;
+    height: 140px;
+    padding-top: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #16FF00;
+}
+
+.expanse-card {
+    background-color: #E52929;
+    color: #fff
+}
+
+.tracker-container {
+    width: 94.3%;
+    margin-left: 40px;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    background-color: #D9D9D9;
 }
