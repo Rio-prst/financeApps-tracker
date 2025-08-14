@@ -46,6 +46,26 @@
             </div>
             <div class="add-transaction">
                 <h3>Add Transaction</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="description">Description</label>
+                        <input type="text" id="description" name="description">
+                    </div>
+                    <div class="form-group">
+                        <div class="total">
+                            <label for="quantity">Quantities</label>
+                            <input type="number" id="quantity" name="quantity" value="1" min="1" step="1">
+                        </div>
+                        <div class="type">
+                            <label for="type">Type</label>
+                            <select name="type" id="type"></select required>
+                                <option value="" disabled selected>Select type</option>
+                                <option value="income">Income</option>
+                                <option value="expenditure">Expenditure</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </main>
