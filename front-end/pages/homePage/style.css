@@ -91,3 +91,52 @@ nav {
     font-size: 1.3rem;
 }
 
+.form-group {
+    display: flex;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.description input {
+    margin-top: 10px;
+    width: 330px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ffff;
+    outline: none;
+}
+
+.description input:focus {
+    border: 2px solid #16FF00;
+}
+
+.total {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.total input {
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+.type {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.type select {
+    margin-top: 10px;
+    height: 30px;
+    width: 150px;
+}
