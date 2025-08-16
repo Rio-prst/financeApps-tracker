@@ -126,6 +126,12 @@ nav {
     width: 150px;
     height: 30px;
     text-align: center;
+    border: 1px solid #fff;
+    outline: none;
+}
+
+.total input:focus {
+    border-color: #16FF00;
 }
 
 .type {
@@ -139,4 +145,10 @@ nav {
     margin-top: 10px;
     height: 30px;
     width: 150px;
+    border: 1px solid #fff;
+    outline: none;
+}
+
+.type select:focus {
+    border-color:#16FF00;
 }
